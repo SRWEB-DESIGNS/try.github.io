@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GREEN TOP COMPANY</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="request.css">
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <div id="menu" class="sidemenu">
+            MENU
+            <a href="javascript:void(0)" class="clbtn" onclick="closeNav()">&times;</a>
+            <button class="opt"onclick="document.location='index.html'">
+                <img src="HOME.PNG">
+                <p>HOME</p>                  
+            </button>       
+            <button class="opt" onclick="document.location='about.html'">
+                <img src="ABOUT.png" on>
+                <p>ABOUT</p>
+            </button>    
+            <button class="opt" onclick="document.location='contact.html'">
+                <img src="PROJECTS.png">
+                <p>PROJECTS</p>
+            </button>
+            <button class="opt" onclick="document.location='contact.html'">
+                <img src="SERVICES.PNG">
+                <p>SERVICES</p>
+            </button>
+             <button class="opt" onclick="document.location='contact.html'">
+                <img src="CONTACT.PNG">
+                <p>CONTACT</p>
+            </button>
+            <button class="opt" id="langsel">
+                <img src="LANGUAGE.png">
+                <p>LANGUAGE</p>
+            </button>
+          </div>
+          <div class="langopt" id="langbg" onclick="closelang()">
+            <p class="close">&times;</p>
+            <div class="lang">
+                    <P>SELECT LANGUAGE</P><br>
+                    <button onclick="document.location='index.html'">ENGLISH</button> <button>عربى</button>
+            </div>
+          </div>
+          <div class="Mreq" id="Mreqf" onclick="closescn()">
+            <p class="closebtn">&times;</p>
+            <div class="reqf">
+                <form  action="request.php" method="POST">
+                    <label> Name</label><br>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required><br>
+                    <label>E-mail</label><br>
+                    <input type="email" name="Email" placeholder="Enter Your Email Id" required><br>
+                    <label>Select Service</label><br>
+                    <select name="Service"  required>
+                        <option>Select</option>
+                        <option value="Const">Construction</option>
+                        <option value="IT">IT</option>
+                        <option value="Trading">Trading</option>
+                        <option value="Others">Others</option>
+                    </select><br>
+                    <textarea name="Descptn" placeholder="Enter Any Project Specification" cols="40" rows="4"></textarea><br>
+                    <input type="submit" value="submit" class="btnf"><input type="reset" value="reset" class="btnf">
+                </form>
+            </div>
+        </div>
+        <div class="fullpage">
+            <div class="header">
+                <div class="headerl">
+                    <img src="GTC.png" alt="GTC LOGO" class="gtclogo">
+                </div>
+                <div class="headerm">
+                    <button id="reqbtn" class="btn">REQUEST A QUOTE</button>
+                </div>
+                <div class="headerr">
+                    <p class="Nav" onclick="openNav()"> &#9776;</p>
+                </div>
+            </div>
+            <div class="subhead">
+                <img src="GTC2.png">
+                <p>INTRODUCTION</p>
+            </div>
+            <div class="welcome">
+                <p style="text-align: center;font-size: larger;">WELCOME TO <span style="color: green;"> GTC</span></p>
+                <p><span style="color: green;">GREEN TOP COMPANY LTD.</span> is a general contracting company formed back on 1977 based in AlKhobar with vast experience on the Construction and Management of Residential,Company and Industrial Projects with special expertise inthe Construction of Power Substations and associated facilities. Our company employees highly qualified and experienced Managers and Engineers as well as skilled force that aims to offer the Saudi Arabian market the best electromechanical works and main place services available combining this with an unwavering focus on the customer's needs. GTC Mission statement of GTPP is to build long and strong relationships with its clients by providing superior customer value through respecting contract delivery times, budget, and quality. That we call added value business. GTC activities for the last thirty-five years comprehend all the processes related to building Section and systems,that is, electromechanical works, from on site development of the master designs to their constructions. Its activities also include after completion, the maintenance and fecitation of some facilities and industrial processes via leasing contracts.</p>
+                <p style="font-weight: bold;font-size: medium;">Regards,<br>GREEN TOP MANAGEMENT.</p>
+            </div>
+            <hr><p style="text-align: center;">GREEN TOP BOARD</p><hr>
+            <div class="members">
+                <img src="BM1.JPG" alt="GTC">
+                <p><span style="font-weight: bolder;">Mr. Majed Nasser Al-Yemni</span><br><br>
+                    <span style="font-weight: bold;">President</span><br><br>
+                E-mail:<a href="mailto: majed@greentop.com.sa">majed@greentop.com.sa</a>.</p>
+                    <p style="text-align: justify;"><span style="font-weight: bold;">ABOUT Mr. Majed Nasser Al-Yemni</span><br>
+                    Mr. Majed Nasser Al-Yemni received his Bachelor’s Degree in Technology from Central Queensland University, Australia and served in various capacities as senior management and played a vital role in managing the business into rapid growth and a continual improvement in the company.
+                    </p> 
+                    <span id="BMD1">
+                        Green Top Contracting Co. Ltd (GTC) is a General Contracting   Company and started
+                            in the year 1977 as a small with a minimum trustworthy workforces. Nonetheless,
+                            presently, the company experienced rapid growth because everyone exerted their
+                            maximum efforts and wanted to be an excellent company where all employees could
+                            believe in each other, abandon selfish motives, and be truly proud to work.
+                            Ultimately, these desires became the foundation of GTC Management.<br>
+                            At GTC, I am proud to be with our excellent team that strives on reaching the success
+                            and greatness. This commitment will ensure continual growth for the years to come.
+                            Timely completion, high standard quality work and providing a safe working
+                            environment are the main pillars of a successfully executed project.<br> We, at GTC put
+                            these objectives in front of us during starting of a Project. From our past records, it
+                            reveals that our customers are always in highly satisfied level especially in these
+                            three aspects stipulated herewith. We want to deliver new value to our customers
+                            continuously, through team members who pursue their dreams, work
+                            enthusiastically and consistently achieve self-determined goals.<br>
+                            GTC places top priority on the “Customer First & Focused” principle, and thus, GTC is
+                            striving for continuous process development & innovative methods to enhance our
+                            manufacturing capabilities and cater to the stringent quality requirements of our
+                            customers.<br>
+                            We remain well-equipped, build & improvise and look forward to have an association
+                            and continuous support from our prestigious clients for attaining success in all
+                            ventures.<br><br>
+                            <img src="GTC3.jpg" alt="GTC" style="width: 70px;border: none;"><br><br>
+                            <span style="font-weight: bold;"> Majed Nasser Al-Yemni<br>
+                            President.</span> 
+                    </span>     
+                        <button onclick="member1()" id="b1" >View More</button>
+                           
+            </div>
+            <div class="members">
+                <img src="BM2.JPG" alt="GTC">
+                <p><span style="font-weight: bolder;">Mr. Nesamani Rajendran</span><br><br>
+                <span style="font-weight: bold;">Vice President</span><br><br>
+                E-mail:<a href="mailto: rajendran@greentop.com.sa">rajendran@greentop.com.sa</a>.</p>
+                    <p style="text-align: justify;"><span style="font-weight: bold;">ABOUT Mr. Nesamani Rajendran</span><br>
+                        Mr. Nesamani Rajendran received his Master Degree in Technology from National Institute of Technology, India & further achieved a Master Degree in Business Administration and served in various capacities as senior management and played in every act of company’s function to support the team to provide desired output in a more efficient way.
+                    </p> 
+                    <span id="BMD2">
+                        Green Top Contracting Co. Ltd (GTC) is a General Contracting   Company and started
+                            in the year 1977 as a small with a minimum trustworthy workforces. Nonetheless,
+                            presently, the company experienced rapid growth because everyone exerted their
+                            maximum efforts and wanted to be an excellent company where all employees could
+                            believe in each other, abandon selfish motives, and be truly proud to work.
+                            Ultimately, these desires became the foundation of GTC Management.<br>
+                            At GTC, I am proud to be with our excellent team that strives on reaching the success
+                            and greatness. This commitment will ensure continual growth for the years to come.
+                            Timely completion, high standard quality work and providing a safe working
+                            environment are the main pillars of a successfully executed project.<br> We, at GTC put
+                            these objectives in front of us during starting of a Project. From our past records, it
+                            reveals that our customers are always in highly satisfied level especially in these
+                            three aspects stipulated herewith. We want to deliver new value to our customers
+                            continuously, through team members who pursue their dreams, work
+                            enthusiastically and consistently achieve self-determined goals.
+                            <br><br>
+                            <span style="font-weight: bold;"> Nesamani Rajendran<br>
+                           Vice President.</span> 
+                    </span>     
+                        <button onclick="member2()" id="b2" >View More</button>
+                           
+            </div>
+            <div class="members">
+                <img src="BM3.JPG" alt="GTC">
+                <p><span style="font-weight: bolder;">Mr. Saud Nasser AI-Yemni</span><br><br>
+                <span style="font-weight: bold;">Finance Manager</span><br><br>
+                E-mail:<a href="mailto: saud@greentop.com.sa">saud@greentop.com.sa</a>.</p>
+                    <p style="text-align: justify;"><span style="font-weight: bold;">ABOUT Mr. Saud Nasser Al-Yemni</span><br>
+                        Mr. Saud Nasser Al-Yemni received his Degree in Financial Management and served in various capacities as senior management and played key role in company’s financial function to support the financial aspects & achieving upward progress and identifying the potential growth of the organization.
+                    </p>                            
+            </div>
+
+            <hr><p style="text-align: center;">GREEN TOP CLIENTS</p><hr>
+            <div class="clients">
+                <img src="GTCC1.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC2.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC3.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC4.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC5.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC6.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC7.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC8.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC9.PNG" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC10.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC11.png" alt="GTC">
+            </div>
+            <div class="clients">
+                <img src="GTCC12.png" alt="GTC">
+            </div>
+            <hr><p style="text-align: center;">GTC PROFILE</p><hr>
+            <div class="profile">
+                <iframe src="GTC profile.pdf"></iframe><br>
+                <a href="GTC profile.pdf" download="GTC profile.pdf"><button ><i class="fa fa-download"></i> Download</button></a>
+            </div>
+            <div class="footer">
+                <div class="footpart">
+                <p>GTC LINKS<br>Home<br>About<br>Projects<br>Careers<br>Contact Us</p>
+                </div>
+                <div class="footpart">
+                    <p>CONTACT US:<br>Green Top Contracting Co Ltd, NSH Tower,<br> 10th floor, Al Khobar 31952, Saudi Arabia.<br>Phone: +966 55 509 5753.<br>E-mail: <a href = "mailto: info@greentop.com.sa">info@greentop.com.sa</a>.</p>
+                </div>
+                <div class="footpart">
+                    <iframe src="https://maps.google.com/maps?q=green%20top%20contacting%20saudi%20arabia&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+                <div class="footlast">
+                    <p>© 2016 GTC, all rights reserved.<br>Powered By: 4our Designers.</p>
+                </div>
+            </div>
+        </div>
+        <script src="about.js"></script>
+        <script src="request.js"></script>
+        <script src="menu.js"></script>
+    </body>
+</html>

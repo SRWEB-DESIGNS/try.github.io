@@ -1,0 +1,117 @@
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+ a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+ a:hover {
+    color: rgb(0, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+ a:active {
+    color: rgb(0, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+ }
+ hr{
+     height: 4px;
+     background-color: rgb(0, 100, 0);
+ }
+.subhead{
+    width: 100%;
+    height: 10%;
+    background-image: url("BG3.jpg");
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.subhead img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.welcome{
+    width: 100%;
+    align-content: center;
+    text-align: justify;
+    padding: 0.5cm;
+    margin: 0.25cm;
+    background-color: rgba(0, 150, 0, 0.250);
+}
+.members{
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+   padding: 0.5cm;
+       
+}
+.members img{
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    border-style: outset;
+    border-color: green;
+}
+.members p{
+    padding: 2px;
+    margin-left: 3cm;
+} 
+
+.members button{
+    width: 100%;
+    background-color: rgb(0, 172, 0);
+    border-style: outset;
+    border-color: green;
+    color: white;
+}
+
+.members button:hover{
+    background-color: rgb(0, 255, 0);
+}
+.BM1D{
+    margin-left: 0pt;
+    background-color: white;
+    text-align: justify;
+}
+.clients{
+    padding: 1cm;
+    margin: 0.25cm;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.clients img{
+    width: 150px;
+}
+.profile{
+    align-content: center;
+    text-align: center;
+    padding: 0.5cm;
+}
+.profile iframe{
+    width: 80%;
+    height: 500px;
+}
+.profile button{
+    background-color: rgb(0, 172, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#BMD1{
+    display: none;
+}
+#BMD2{
+    display: none;
+}

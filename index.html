@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GREEN TOP COMPANY</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="request.css">
+</head>
+<body>
+    <div id="menu" class="sidemenu">
+        MENU
+        <a href="javascript:void(0)" class="clbtn" onclick="closeNav()">&times;</a>
+        <button class="opt"onclick="document.location='index.html'">
+            <img src="HOME.PNG">
+            <p>HOME</p>                  
+        </button>       
+        <button class="opt" onclick="document.location='about.html'">
+            <img src="ABOUT.png">
+            <p>ABOUT</p>
+        </button>  
+        <button class="opt" onclick="document.location='contact.html'">
+            <img src="PROJECTS.png">
+            <p>PROJECTS</p>
+        </button>
+        <button class="opt" onclick="document.location='contact.html'">
+            <img src="SERVICES.PNG">
+            <p>SERVICES</p>
+        </button>
+         <button class="opt" onclick="document.location='contact.html'">
+            <img src="CONTACT.PNG">
+            <p>CONTACT</p>
+        </button>
+        <button class="opt" id="langsel">
+            <img src="LANGUAGE.png">
+            <p>LANGUAGE</p>
+        </button>
+      </div>
+      <div class="langopt" id="langbg" onclick="closelang()">
+        <p class="close">&times;</p>
+        <div class="lang">
+                <P>SELECT LANGUAGE</P><br>
+                <button onclick="document.location='index.html'">ENGLISH</button> <button>عربى</button>
+        </div>
+      </div>
+      <div class="Mreq" id="Mreqf" onclick="closescn()">
+        <p class="closebtn">&times;</p>
+        <div class="reqf">
+            <form  action="request.php" method="POST">
+                <label> Name</label><br>
+                <input type="text" name="Name" placeholder="Enter Your Name" required><br>
+                <label>E-mail</label><br>
+                <input type="email" name="Email" placeholder="Enter Your Email Id" required><br>
+                <label>Select Service</label><br>
+                <select name="Service"  required>
+                    <option>Select</option>
+                    <option value="Const">Construction</option>
+                    <option value="IT">IT</option>
+                    <option value="Trading">Trading</option>
+                    <option value="Others">Others</option>
+                </select><br>
+                <textarea name="Descptn" placeholder="Enter Any Project Specification" cols="40" rows="4"></textarea><br>
+                <input type="submit" value="submit" class="btnf"><input type="reset" value="reset" class="btnf">
+            </form>
+        </div>
+    </div>
+<div class="fullpage">
+<div class="header">
+    <div class="headerl">
+        <img src="GTC.png" alt="GTC LOGO" class="gtclogo">
+    </div>
+    <div class="headerm">
+        <button id="reqbtn" class="btn">REQUEST A QUOTE</button>
+    </div>
+    <div class="headerr">
+        <p class="Nav" onclick="openNav()"> &#9776;</p>
+    </div>
+</div>
+
+    <p class="tab1">WELCOME TO</p>
+    <img src="GTClogo.png" class="tab1">
+
+<video class="tab2" loop autoplay>
+    <source src="gtcvd.mp4" type="video/mp4">
+</video>
+<div class="tab3">
+    <p style="text-align: center; color: rgb(0, 100, 0);font-size: 20px;">Message From Board</p>
+    <div  class="tab3a">
+    <p style="text-align: justify;color: rgb(0, 56, 0);"><span style="color: rgb(43, 43, 43);" >GREEN TOP COMPANY LTD.</span> is a general contracting company formed back on 1977 based in AlKhobar with vast experience on the Construction and Management of Residential,Company and Industrial Projects with special expertise inthe Construction of Power Substations and associated facilities. Our company employees highly qualified and experienced Managers and Engineers as well as skilled force that aims to offer the Saudi Arabian market the best electromechanical works and main place services available combining this with an unwavering focus on the customer's needs.</p>
+    </div>
+    <div class="tab3b">
+        <img src="BM1.JPG" style="width: 90%;margin-left: 10px;">
+        <figcaption>Mr. Majed Nasser Al-Yemni</figcaption>
+        <p >President</p>
+        <button>View More</button>
+    </div>
+</div>
+<div class="tab3">
+    <p style="text-align: center; color: rgb(0, 0, 0);font-size: 20px;">GTC Specialty Fields</p>
+    <div  class="tab3a">
+    <p style="text-align: justify;color: rgb(0, 0, 0);"><span style="color: rgb(12, 122, 12);" >GREEN TOP COMPANY LTD.</span> GTC has successfully implemented solutions in power plants and HV, MV and LV facilities in both industrial and infrastructure installations. We are known for our advanced quality systems, project management, turnkey projects, customized engineering solutions and complete project development to offer our customers the very best products for their needs.
+    </p>
+    </div>
+    <div class="tab3b">
+        <img src="gtcpp1.JPG" style="width: 90%;margin-left: 10px;">
+        <img src="gtcpp2.JPG" style="width: 90%;margin-left: 10px;">
+        <img src="gtcpp3.JPG" style="width: 90%;margin-left: 10px;">
+        <button>View More</button>
+    </div>
+</div>
+<div class="footer">
+    <div class="footpart">
+    <p>GTC LINKS<br>Home<br>About<br>Projects<br>Careers<br>Contact Us</p>
+    </div>
+    <div class="footpart">
+        <p>CONTACT US:<br>Green Top Contracting Co Ltd, NSH Tower,<br> 10th floor, Al Khobar 31952, Saudi Arabia.<br>Phone: +966 55 509 5753.<br>E-mail: <a href = "mailto: info@greentop.com.sa">info@greentop.com.sa</a>.</p>
+    </div>
+    <div class="footpart">
+        <iframe src="https://maps.google.com/maps?q=green%20top%20contacting%20saudi%20arabia&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+    <div class="footlast">
+        <p>© 2016 GTC, all rights reserved.<br>Powered By: 4our Designers.</p>
+    </div>
+</div>
+</div>
+<script src="request.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>
